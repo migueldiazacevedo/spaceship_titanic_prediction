@@ -21,7 +21,6 @@ by the anomaly using records recovered from the spaceship’s damaged computer s
 3. Tune a variety of models (__see light_gbm.ipynb, random_forest.ipynb, logistic_regression.ipynb__)
 4. Place all tuned models into an ensemble voting model (__see voting_model.ipynb__)
 5. Submit results to Kaggle
-6. Deploy app using FastAPI
 
 ## Project Files:
 - __data__ <br>(a directory created in "data_preprocessing_EDA.ipynb")
@@ -63,7 +62,6 @@ by the anomaly using records recovered from the spaceship’s damaged computer s
 
 ## How to run notebooks:
 __set up environment__ <br>
-First, ensure that your system has conda (I recommend downloading according to directions on www.anaconda.com)
 <br>
 1. Clone the repository 
    
@@ -92,8 +90,8 @@ using this environment you should be able to run any notebooks for other code in
   - scikit-learn
   - scipy
   - xgboost
-  - pycaret 3.3.2 <br><br>
-see environment.yml for more details
+  - pycaret <br><br>
+see requirements.txt for more details
 
 ### Future Directions
 - more in-depth hyperparameter tuning
